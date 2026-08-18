@@ -1,23 +1,26 @@
 # Analítica Operativa para Gestión de Back Office
 
-Python, SQL and Business Intelligence project focused on operational analytics, KPIs, SLA, backlog and process improvement.
+Proyecto de analítica operativa desarrollado con Python, SQL, SQLite y visualizaciones para analizar indicadores clave de gestión, cumplimiento de SLA, backlog, tiempos de resolución y oportunidades de mejora en procesos de back office.
 
-## Business Problem
+## Problema de negocio
 
-Many organizations operate with limited visibility over workload, pending tasks, response times and process bottlenecks. This project simulates a back-office operational environment and analyzes key indicators to support better decision-making.
+Muchas organizaciones operan con baja visibilidad sobre su carga de trabajo, tareas pendientes, tiempos de respuesta y cuellos de botella del proceso.
 
-The goal is to transform raw operational data into actionable insights for management, process improvement and service quality control.
+Este proyecto simula un entorno operativo de back office y analiza indicadores clave para apoyar la toma de decisiones, la mejora continua y el control de calidad del servicio.
 
-## Objectives
+El objetivo es transformar datos operativos en información útil para la gestión, permitiendo identificar demoras, priorizar acciones y mejorar el desempeño del proceso.
 
-- Analyze operational workload.
-- Measure backlog and pending tasks.
-- Calculate SLA compliance.
-- Identify process bottlenecks.
-- Generate basic visualizations.
-- Build a professional data analytics portfolio project.
+## Objetivos
 
-## Tools
+- Analizar la carga operativa.
+- Medir backlog y tareas pendientes.
+- Calcular cumplimiento de SLA.
+- Identificar cuellos de botella.
+- Generar visualizaciones básicas.
+- Ejecutar consultas SQL desde Python.
+- Construir un proyecto profesional de portfolio en analítica operativa.
+
+## Herramientas
 
 - Python
 - Pandas
@@ -28,14 +31,14 @@ The goal is to transform raw operational data into actionable insights for manag
 - GitHub
 - VS Code
 
-## KPIs
+## KPIs analizados
 
-- **Throughput:** number of processed operations.
-- **Lead Time:** time from request creation to closure.
-- **Backlog:** pending workload.
-- **SLA Compliance:** percentage of cases resolved within expected time.
-- **Rework / Observed Cases:** percentage of cases requiring review.
-- **Bottlenecks:** areas, channels or operation types causing delays.
+- **Throughput:** cantidad de operaciones procesadas.
+- **Lead Time:** tiempo total desde el ingreso de una operación hasta su cierre.
+- **Backlog:** trabajo acumulado pendiente de resolución.
+- **SLA Compliance:** porcentaje de operaciones resueltas dentro del tiempo esperado.
+- **Casos observados:** operaciones que requieren revisión, reproceso o análisis adicional.
+- **Cuellos de botella:** tipos de operación, canales o sucursales que generan demoras.
 
 ## Project Structure
 
