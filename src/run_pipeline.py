@@ -4,13 +4,14 @@ from pathlib import Path
 
 scripts = [
     "src/generar_datos.py",
+    "src/validar_calidad_datos.py",
     "src/crear_base_sqlite.py",
     "src/analizar_operaciones.py",
     "src/ejecutar_consultas_sql.py",
     "src/visualizar_operaciones.py",
 ]
 
-print("Iniciando pipeline de analítica operativa")
+print("Iniciando pipeline de inteligencia operativa")
 print("=" * 60)
 
 for script in scripts:
@@ -25,4 +26,4 @@ for script in scripts:
     subprocess.run([sys.executable, str(script_path)], check=True)
 
 print("\nPipeline ejecutado correctamente.")
-print("Datos, base SQLite, análisis, consultas SQL y visualizaciones generadas.")
+print("Datos, validación de calidad, base SQLite, análisis, consultas SQL y visualizaciones generadas.")
