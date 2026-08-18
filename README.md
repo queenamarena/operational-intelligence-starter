@@ -66,6 +66,15 @@ operational-intelligence-starter/
 > Nota: la carpeta `data/` está ignorada por Git para evitar subir datos sensibles o información operativa real. El dataset utilizado en este proyecto es simulado.
 
 ## Cómo ejecutar el proyecto
+## Ejecución rápida
+
+Para ejecutar todo el flujo completo del proyecto:
+
+```bash
+python src/run_pipeline.py
+```
+
+Este comando genera el dataset simulado, crea la base SQLite, ejecuta el análisis operativo, corre las consultas SQL y genera las visualizaciones.
 ## Flujo del proyecto
 ```markdown
 ## Capa SQL
