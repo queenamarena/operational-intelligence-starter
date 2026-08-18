@@ -1,4 +1,4 @@
-# Operational Intelligence Starter
+# Analítica Operativa para Gestión de Back Office
 
 Python, SQL and Business Intelligence project focused on operational analytics, KPIs, SLA, backlog and process improvement.
 
