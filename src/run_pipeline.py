@@ -5,6 +5,7 @@ from pathlib import Path
 scripts = [
     "src/generar_datos.py",
     "src/validar_calidad_datos.py",
+    "src/calcular_riesgo_operativo.py",
     "src/crear_base_sqlite.py",
     "src/analizar_operaciones.py",
     "src/ejecutar_consultas_sql.py",
@@ -26,4 +27,7 @@ for script in scripts:
     subprocess.run([sys.executable, str(script_path)], check=True)
 
 print("\nPipeline ejecutado correctamente.")
-print("Datos, validación de calidad, base SQLite, análisis, consultas SQL y visualizaciones generadas.")
+print(
+    "Datos, validación de calidad, scoring de riesgo, base SQLite, "
+    "análisis, consultas SQL y visualizaciones generadas."
+)
